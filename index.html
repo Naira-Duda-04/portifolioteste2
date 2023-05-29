@@ -265,13 +265,15 @@
 
         <div class="row">
 
-            <form action="https://myaccount.google.com/?hl=pt_PT&utm_source=OGB&utm_medium=act&pli=1">
+            <form action="https://api.staticforms.xyz/submit">
+            <input type="hidden" name="accessKey" value="3cbd84af-93cb-4fbd-a1bb-8033acc94539">
 
                 <input type="text" placeholder="name" class="box">
                 <input type="e-mail" placeholder="e-mail" class="box">
                 <input type="number" placeholder="namber" class="box">
 
                 <textarea name="" placeholder="message" id="" cols="30" rows="10"></textarea>
+                <input type="hidden" name="redirectTo" value="#home">
 
                 <input type="submit" class="btn" value="Enviar Mensagem">
 
